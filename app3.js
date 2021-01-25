@@ -1,6 +1,6 @@
 class student_info {
   constructor(lname,lage){
-    this.nme=lname;
+    this.name=lname;
     this.age=lage;
   }
   setName(n) {
@@ -12,3 +12,5 @@ class student_info {
 }
 
 var std1 = new student_info("Maria", 77);
+
+console.log(std1.name);
