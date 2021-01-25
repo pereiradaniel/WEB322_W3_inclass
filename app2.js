@@ -8,5 +8,8 @@ function student_info(iname, iage) {
 var std1 = new student_info("Haytham", 66);
 
 console.log(std1.name+std1.age+std1.address);
-
 console.log(std1.setAge());
+
+student_info.prototype.getName = function() { return this.name};
+
+console.log(std1.getName());

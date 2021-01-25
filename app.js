@@ -31,3 +31,4 @@ console.log(std1.getAge());
 var std2 = Object.create(student_info);
 console.log(std2.age);
 console.log(std1.age);
+
