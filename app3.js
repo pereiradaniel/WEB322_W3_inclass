@@ -1,7 +1,7 @@
 class student_info {
-  constructor(){
-    this.nme="Maria";
-    this.age=77;
+  constructor(lname,lage){
+    this.nme=lname;
+    this.age=lage;
   }
   setName(n) {
     this.name = n;
@@ -10,3 +10,5 @@ class student_info {
     return this.age;
   }
 }
+
+var std1 = new student_info("Maria", 77);
